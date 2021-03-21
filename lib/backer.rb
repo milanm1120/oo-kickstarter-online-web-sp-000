@@ -4,7 +4,7 @@ class Backer
 
   def initialize(name)
     @name = name
-    @backed_projects = Array.new
+    self.backed_projects = Array.new
   end
 
 end
